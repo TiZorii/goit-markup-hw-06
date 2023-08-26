@@ -1,0 +1,115 @@
+/* ---------------------------- General -------------------------- */
+
+.goal {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.goal-list {
+    display: flex;
+}
+
+.goal-tittle {
+    color: var(--navyblue);
+    margin-bottom: 8px;
+}
+
+.goal-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+
+/* ---------------------------- Adaptive -------------------------- */
+
+@media screen and (max-width: 768px) {
+
+    .goal-list {
+        flex-direction: column;
+        gap: 72px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .goal-tittle {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    }
+
+    .goal-icon-container {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+
+    .goal-list {
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .goal-list-item {
+        width: calc((100% - 1 * 24px) / 2);
+    }
+
+    .goal-tittle {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    }
+
+    .goal-icon-container {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+
+    .goal {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .goal-list {
+        gap: 24px;
+    }
+
+    .goal-tittle {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+
+    .goal-text {
+        font-weight: 400;
+    }
+
+    .goal-list-item {
+        width: calc((100% - 3 * 24px) / 4);
+    }
+
+    .goal-icon-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: var(--cloud);
+        border-radius: 4px;
+        margin-bottom: 8px;
+    }
+
+    .goal-icon {
+        color: var(--navyblue);
+    }
+}

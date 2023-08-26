@@ -1,0 +1,48 @@
+/* ---------------------------- General -------------------------- */
+
+/* ---------------------------- Adaptive -------------------------- */
+
+@media screen and (max-width: 768px) {
+
+    .project {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+
+    .project {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+
+    .project {
+        padding-bottom: 120px;
+    }
+
+    .project-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .project-list-item {
+        width: calc((100% - 3*16px) / 3);
+    }
+
+    .project-tittle {
+        color: var(--navyblue);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 72px;
+    }
+}
+
+@media screen and (min-resolution: 192dpi) {
+    .project-item {}
+}
