@@ -23,7 +23,7 @@
 
 /* ---------------------------- Adaptive -------------------------- */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     .goal-list {
         flex-direction: column;
@@ -46,7 +46,7 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1158px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
 
     .goal-list {
         flex-wrap: wrap;
