@@ -53,12 +53,14 @@
 
 @media screen and (max-width: 767px) {
 
+    .customers-container {
+        width: 584px;
+    }
+
     .customers-list {
         flex-wrap: wrap;
         column-gap: 16px;
         row-gap: 72px;
-        padding-left: 16px;
-        padding-right: 16px;
     }
 
     .customers-list-item {

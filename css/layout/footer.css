@@ -135,6 +135,7 @@
     .bottom-container {
         display: flex;
         flex-direction: column;
+        width: 584px;
     }
 
     .first-bottom-container {
@@ -167,7 +168,7 @@
     }
 
     .email-frame {
-        width: 398px;
+        width: 100%;
     }
 
     .button-submit {
