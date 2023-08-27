@@ -168,7 +168,7 @@
     }
 
     .email-frame {
-        width: 100%;
+        width: 398px;
     }
 
     .button-submit {
@@ -181,9 +181,9 @@
 @media screen and (min-width: 768px) and (max-width: 1157px) {
 
     .bottom-container {
+        width: 584px;
         display: flex;
         flex-wrap: wrap;
-        padding-left: 108px;
     }
 
     .first-bottom-container {

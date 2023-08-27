@@ -53,10 +53,6 @@
 
 @media screen and (max-width: 767px) {
 
-    .customers-container {
-        width: 584px;
-    }
-
     .customers-list {
         flex-wrap: wrap;
         column-gap: 16px;
@@ -69,12 +65,15 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
+
+    .customers-container {
+        width: 584px;
+    }
+
     .customers-list {
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 72px;
-        padding-left: 108px;
-        padding-right: 108px;
     }
 
     .customers-list-item {
