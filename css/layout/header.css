@@ -81,7 +81,6 @@
     .mobile-menu-container {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         position: fixed;
         gap: 40px;
         left: 0;
@@ -114,6 +113,10 @@
 
     .mobile-menu-close-icon {
         stroke: var(--navyblue);
+    }
+
+    .mobile-menu-bottom {
+        margin-top: auto;
     }
 
     .mobile-menu-list {
